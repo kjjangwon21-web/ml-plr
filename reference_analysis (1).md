@@ -18,6 +18,18 @@
 -   StandardScaler를 사용하여 평균 0, 표준편차 1로 정규화
 -   학습 데이터로만 fit 후 테스트 데이터에 transform 적용 (데이터 누수
     방지)
+## 심장질환 통계 로그
+성별: 젠더 (남성 : 1; 여성 : 0)
+cp: 환자가 경험한 흉통의 유형. 이 용어는 4가지 범주로 분류됩니다.
+0: 전형적인 협심증, 1: 비전형적인 협심증, 2: 비협심증성 통증, 3: 무증상(명목상)
+trestbps: 환자의 안정시 혈압 수치(mmHg, 수치)
+chol: 혈청 콜레스테롤 (mg/dl, 숫자)
+fbs: 공복 혈당 수치가 120mg/dl 초과인 경우 참이면 1, 거짓이면 0으로 표시합니다(명목척도).
+restecg: 안정 시 심전도 검사 결과는 3가지 값으로 표시됩니다.
+0: 정상, 1: ST-T파 이상(T파 역전 및/또는 ST 상승 또는 하강이 0.05mV 초과),
+2: Estes 기준에 따른 좌심실 비대 가능성 또는 확정 소견(명목상).
+시상: 달성된 최대 심박수(숫자)
+
 <img width="874" height="169" alt="image" src="https://github.com/user-attachments/assets/60cc9218-68b9-4f26-b7fb-ad85bc174d59" />
 <img width="873" height="162" alt="image" src="https://github.com/user-attachments/assets/2efbb572-1cea-4ee8-873d-2beb0befb2ed" />
 
