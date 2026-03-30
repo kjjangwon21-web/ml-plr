@@ -1,3 +1,4 @@
+[reference_analysis.md](https://github.com/user-attachments/files/26198528/reference_analysis.md)
 # 1) 데이터셋 분석
 
 심장질환 예측을 위해 UCI 기반의 의료 데이터를 활용하였다.
@@ -17,6 +18,9 @@
 -   StandardScaler를 사용하여 평균 0, 표준편차 1로 정규화
 -   학습 데이터로만 fit 후 테스트 데이터에 transform 적용 (데이터 누수
     방지)
+<img width="874" height="169" alt="image" src="https://github.com/user-attachments/assets/60cc9218-68b9-4f26-b7fb-ad85bc174d59" />
+<img width="873" height="162" alt="image" src="https://github.com/user-attachments/assets/2efbb572-1cea-4ee8-873d-2beb0befb2ed" />
+
 
 ------------------------------------------------------------------------
 
@@ -34,6 +38,7 @@
 
 ## 알고리즘 선택 이유
 
+
 -   Logistic Regression: 해석이 쉬운 기본 선형 모델
 -   Decision Tree: 직관적인 규칙 기반 모델
 -   Random Forest: 과적합 감소 및 성능 향상
@@ -48,15 +53,14 @@
 
 ## 평가 지표
 
--   Accuracy 정확도
--   Precision 정밀도
--   Recall 의약품
--   F1-score 
--   ROC-AUC 다양한 임계값에서 이진 분류 모델의 성능을 보여주는 그래프
--   Cross Validation Mean / Std 검증 평균/ 표준편차
+-   Accuracy
+-   Precision
+-   Recall
+-   F1-score
+-   ROC-AUC
+-   Cross Validation Mean / Std
 
 ## 성능 결과
-
 
 -   Logistic Regression과 Naive Bayes가 약 87% 정확도로 가장 우수
 -   Logistic Regression:
